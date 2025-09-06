@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunit - Perosonal Blog Website</title>
+  <meta name="title" content="Wren - Perosonal Blog Website">
+  <meta name="description" content="This is a blog html template made by SunitKatuwal">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+  
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="assets/images/sunit_stylish_logo.svg" width="119" height="37" alt="sunit_stylish_logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="#" width="119" height="37" alt="Wren logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Topics</a>
+          </li>
+
+          <li>
+            <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Featured Post</a>
+          </li>
+
+          <li>
+            <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Recent Post</a>
+          </li>
+
+          <li>
+            <a href="contactme.html" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-bottom">
+
+          <div class="profile-card">
+            <img src="./assets/images/author-1.jpg" width="48" height="48" alt="Steven" class="profile-banner">
+
+            <div>
+              <p class="card-title">Hello Sunit !</p>
+
+              <p class="card-subtitle">
+                You have 3 new messages
+              </p>
+            </div>
+          </div>
+
+          <ul class="link-list">
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Profile</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Articles Saved</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Add New Post</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">My Likes</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Account Setting</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-bottom-link hover-1">Sign Out</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <p class="copyright-text">
+          Copyright 2025 © sunit - Sunit Katuwal Personal blog.
+          Developed by Sunit Katuwal
+        </p>
+
+      </nav>
+
+      <a href="https://github.com/sunitktwl007" class="btn btn-primary">Follow</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Hello Everyone!</p>
+
+            <h1 class="headline headline-1 section-title">
+              I’m <span class="span">Sunit Katuwal</span>
+            </h1>
+
+            <p class="hero-text">
+              I am Sunit Katuwal, a passionate blogger and web developer. I love to share my thoughts and experiences on various topics including technology, travel, and lifestyle. Join me on this journey of exploration and discovery!
+            </p>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email_address" placeholder="Type your email address" required
+                class="input-field" autocomplete="off">
+
+              <button class="btn btn-primary">
+                <span class="span">Subscribe</span>
+
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.png" width="327" height="490" alt="Wren Clark" class="w-100">
+
+            <img src="./assets/images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="./assets/images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="./assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="./assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOPICS
+      -->
+
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                Hot topics
+              </h2>
+
+              <p class="card-text">
+                Don't miss the latest trends and discussions in these topics about Nepal.
+              </p>
+
+              <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-1.jpeg" width="507" height="618" loading="lazy" alt="Sport"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Nepali People</span>
+
+                      <p class="slider-subtitle">38 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/Festivals-in-Nepal-918x540.jpg" width="507" height="618" loading="lazy" alt="Travel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Nepali Festivals</span>
+
+                      <p class="slider-subtitle">63 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/featured-4.jpg" width="507" height="618" loading="lazy" alt="Design"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Biratnagar</span>
+
+                      <p class="slider-subtitle">78 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/Nepali-culture-bel-bibah.png" width="507" height="618" loading="lazy" alt="Movie"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Nepali Culture</span>
+
+                      <p class="slider-subtitle">125 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/Dal-Bhat-Tarkari-1536x1222.jpg" width="507" height="618" loading="lazy" alt="Lifestyle"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Nepali Food</span>
+
+                      <p class="slider-subtitle">78 Articles</p>
+                    </div>
+
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section feature" aria-label="feature" id="featured">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span">Editor's picked</span>
+          </h2>
+
+          <p class="section-text">
+            Featured and highly rated articles
+          </p>
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-1.jpg" width="1602" height="903" loading="lazy"
+                    alt="Nepal, a great destination for active over fifty’s!
+" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Travel</a>
+
+                      <a href="#" class="span hover-2">#Lifestyle</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">3 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Nepal, a great destination for active over fifty’s!
+
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.jpg" width="48" height="48" loading="lazy" alt="Sunit Katuwal"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Sunit Katuwal</p>
+
+                        <p class="card-subtitle">9 Aug 2025</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-2.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Rangeli</a>
+
+                      <a href="#" class="span hover-2">#Must visit</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      What so Famous in Rangeli, Morang?
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.jpg" width="48" height="48" loading="lazy" alt="Sunit Katuwal"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Sunit Katuwal</p>
+
+                        <p class="card-subtitle">9 Aug 2025</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-3.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#food</a>
+
+                      <a href="#" class="span hover-2">#Tasty</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Samosa: A Delicious Snack from Biratnagar
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.jpg" width="48" height="48" loading="lazy" alt="Sunit Katuwal"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Sunit Katuwal</p>
+
+                        <p class="card-subtitle">9 Aug 2025</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-4.jpg" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Biratnagar</a>
+
+                      <a href="#" class="span hover-2">#Nepal</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      What so special about Biratnagar?
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.jpg" width="48" height="48" loading="lazy" alt="Sunit Katuwal"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Sunit Katuwal</p>
+
+                        <p class="card-subtitle">9 Aug 2025</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/featured-5.webp" width="1602" height="903" loading="lazy"
+                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Nepal</a>
+
+                      <a href="#" class="span hover-2">#Travel</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 mins read</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Nepal budget: prices and costs of traveling in Nepal!
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="./assets/images/author-1.jpg" width="48" height="48" loading="lazy" alt="Sunit Katuwal"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Sunit Katuwal</p>
+
+                        <p class="card-subtitle">9 Aug 2025</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Read more</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-secondary">
+            <span class="span">Show More Posts</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+        <img src="./assets/images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #POPULAR TAGS
+      -->
+
+      <section class="tags" aria-labelledby="tag-label">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title" id="tag-label">
+            <span class="span">Popular Tags</span>
+          </h2>
+
+          <p class="section-text">
+            Most searched keywords
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag1.png" width="32" height="32" loading="lazy" alt="Travel">
+
+                <p class="btn-text">Travel</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag2.png" width="32" height="32" loading="lazy" alt="Culture">
+
+                <p class="btn-text">Culture</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag3.png" width="32" height="32" loading="lazy" alt="Lifestyle">
+
+                <p class="btn-text">Lifestyle</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag4.png" width="32" height="32" loading="lazy" alt="Fashion">
+
+                <p class="btn-text">Fashion</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag5.png" width="32" height="32" loading="lazy" alt="Food">
+
+                <p class="btn-text">Food</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag6.png" width="32" height="32" loading="lazy" alt="Space">
+
+                <p class="btn-text">Space</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag7.png" width="32" height="32" loading="lazy" alt="Animal">
+
+                <p class="btn-text">Animal</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag8.png" width="32" height="32" loading="lazy" alt="Minimal">
+
+                <p class="btn-text">Minimal</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag9.png" width="32" height="32" loading="lazy" alt="Interior">
+
+                <p class="btn-text">Interior</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag10.png" width="32" height="32" loading="lazy" alt="Plant">
+
+                <p class="btn-text">Plant</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag11.png" width="32" height="32" loading="lazy" alt="Nature">
+
+                <p class="btn-text">Nature</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="./assets/images/tag12.png" width="32" height="32" loading="lazy" alt="Business">
+
+                <p class="btn-text">Business</p>
+              </button>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RECENT POST
+      -->
+
+      <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+
+          <div class="post-main">
+
+            <h2 class="headline headline-2 section-title">
+              <span class="span">Recent posts</span>
+            </h2>
+
+            <p class="section-text">
+              Don't miss the these place to visit in Nepal.
+            </p>
+
+            <ul class="grid-list">
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/recent-post-1.jpg" width="271" height="258" loading="lazy"
+                      alt="Diary Nepal: from Pokhara to Bandipur and Kathmandu" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Travel Tips</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Diary Nepal: from Pokhara to Bandipur and Kathmandu</a>
+                    </h3>
+
+                    <p class="card-text">
+                      After a beautiful but exhausting 12-day hike in the Himalayas, it’s time to recover. And where to do that better than in the cozy city of Pokhara full of hip restaurants and spas amid a beautiful landscape? In this blog, I tell will you more about our experiences in the last two weeks in Nepal. Click here to read our previous blog about the Annapurna Circuit.
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Travel</a>
+
+                        <a href="#" class="span hover-2"># Lifestyle</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/recent-post-2.jpg" width="271" height="258" loading="lazy"
+                      alt="Pokhara: Phewa Lake and 9 more fun things to do in Pokhara, Nepal!" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Travel Tips</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Pokhara: Phewa Lake and 9 more fun things to do in Pokhara, Nepal!</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Pokhara is a cozy city close to the Himalaya mountains in Nepal. This is the base from which you can do some beautiful and challenging treks. Ranging from multi-day hikes to, for example, the Annapurna or Poon Hill, up to day hikes. 
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Travel</a>
+
+                        <a href="#" class="span hover-2"># Lifestyle</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/recent-post-3.jpg" width="271" height="258" loading="lazy"
+                      alt="Bandipur: authentic village and beautiful hidden gem in Nepal!" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Travel Tips</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Bandipur: authentic village and beautiful hidden gem in Nepal!r</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Bandipur used to be an important stop along the India-Tibet trade route. The village itself is small, with lots of plants, trees and charming lampposts. Strangely enough, this place reminds us of Hanoi in Vietnam.
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Travel</a>
+
+                        <a href="#" class="span hover-2"># Lifestyle</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/recent-post-4.jpg" width="271" height="258" loading="lazy"
+                      alt="The Ultimate Ghorepani Poon Hill Trek Guide: Everything You Need Know Before Hiking" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Travel Tips</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">The Ultimate Ghorepani Poon Hill Trek Guide: Everything You Need Know Before Hiking</a>
+                    </h3>
+
+                    <p class="card-text">
+                      A complete guide to the Ghorepani Poon Hill trek, including when to go, what to pack, food, accommodation, hiking solo vs in a group, hiking tips, and essential travel information.
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Travel</a>
+
+                        <a href="#" class="span hover-2"># Lifestyle</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/recent-post-5.jpg" width="271" height="258" loading="lazy"
+                      alt="How to Travel Responsibly in Nepal: Everything You Need to Know" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Visiting Tips</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">How to Travel Responsibly in Nepal: Everything You Need to Know</a>
+                    </h3>
+
+                    <p class="card-text">
+                      Looking for tips on how to explore Nepal thoroughly, while minimising your overall tourism impact? Our guide has everything you need to know about responsible travel in Nepal
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Travel</a>
+
+                        <a href="#" class="span hover-2"># Lifestyle</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 mins read</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <nav aria-label="pagination" class="pagination">
+
+              <a href="#" class="pagination-btn" aria-label="previous page">
+                <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+              </a>
+
+              <a href="#" class="pagination-btn">1</a>
+              <a href="#" class="pagination-btn">2</a>
+              <a href="#" class="pagination-btn">3</a>
+              <a href="#" class="pagination-btn" aria-label="more page">...</a>
+
+              <a href="#" class="pagination-btn" aria-label="next page">
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+
+            </nav>
+
+          </div>
+
+          <div class="post-aside grid-list">
+
+            <div class="card aside-card">
+
+              <h3 class="headline headline-2 aside-title">
+                <span class="span">Popular Posts</span>
+              </h3>
+
+              <ul class="popular-list">
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/featured-4.jpg" width="64" height="64" loading="lazy"
+                        alt="Things to Do in Biratnagar" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Things to Do in Biratnagar</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">5 Aug 2025</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/recent-post-1.jpg" width="64" height="64" loading="lazy"
+                        alt="That Time We Got Engaged in Nepal" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">That Time We Got Engaged in Nepal</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">5 Aug 2025</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/recent-post-5.jpg" width="64" height="64" loading="lazy"
+                        alt="Panauti Community Homestay" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Panauti Community Homestay</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">5 Aug 2025</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/recent-post-2.jpg" width="64" height="64" loading="lazy"
+                        alt="The Ultimate Nepal Travel Guide" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">The Ultimate Nepal Travel Guide</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">5 Aug 2025</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="./assets/images/recent-post-3.jpg" width="64" height="64" loading="lazy"
+                        alt="an oasis in the heart of Kathmandu" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">an oasis in the heart of Kathmandu</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 mins read</p>
+
+                        <time class="publish-date" datetime="2022-04-15">5 Aug 2025</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="card aside-card">
+
+              <h3 class="headline headline-2 aside-title">
+                <span class="span">Last Comment</span>
+              </h3>
+
+              <ul class="comment-list">
+
+                <li>
+                  <div class="comment-card">
+
+                    <blockquote class="card-text">
+                      “ Sunit Katuwal coded with hummingbird keystrokes, while USB trees grew beside pixel rivers and AI clouds whispered firmware dreams. “
+                    </blockquote>
+
+                    <div class="profile-card">
+                      <figure class="profile-banner img-holder">
+                        <img src="./assets/images/author-1.jpg" width="32" height="32" loading="lazy" alt="Jane Cooper">
+                      </figure>
+
+                      <div>
+                        <p class="card-title">Sunit Katuwal</p>
+
+                        <time class="card-date" datetime="2022-04-15">5 Aug 2025</time>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="comment-card">
+
+                    <blockquote class="card-text">
+                      “ Sunit Katuwal coded with hummingbird keystrokes, while USB trees grew beside pixel rivers and AI clouds whispered firmware dreams. “
+                    </blockquote>
+
+                    <div class="profile-card">
+                      <figure class="profile-banner img-holder">
+                        <img src="./assets/images/author-1.jpg" width="32" height="32" loading="lazy" alt="Katen Doe">
+                      </figure>
+
+                      <div>
+                        <p class="card-title">Sunit Katuwal</p>
+
+                        <time class="card-date" datetime="2022-04-15">5 Aug 2025</time>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="comment-card">
+
+                    <blockquote class="card-text">
+                      “ Sunit Katuwal coded with hummingbird keystrokes, while USB trees grew beside pixel rivers and AI clouds whispered firmware dreams. “
+                    </blockquote>
+
+                    <div class="profile-card">
+                      <figure class="profile-banner img-holder">
+                        <img src="./assets/images/author-1.jpg" width="32" height="32" loading="lazy"
+                          alt="Barbara Cartland">
+                      </figure>
+
+                      <div>
+                        <p class="card-title">Sunit Katuwal</p>
+
+                        <time class="card-date" datetime="2022-04-15">5 Aug 2025</time>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="card aside-card insta-card">
+
+              <a href="https://www.instagram.com/sammyam_xettri/profilecard/?igsh=MXJpNmptdmVpMmY2bQ==" class="logo">
+                <img src="./assets/images/sunit_stylish_logo.svg" width="119" height="37" loading="lazy" alt="Wren logo">
+              </a>
+
+              <p class="card-text">
+                Follow us on instagram
+              </p>
+
+              <ul class="insta-list">
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/featured-1.jpg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/Nepali-culture-bel-bibah.png" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/Festivals-in-Nepal-918x540.jpg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/Dal-Bhat-Tarkari-1536x1222.jpg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/recent-post-5.jpg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/recent-post-4.jpg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/recent-post-3.jpg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/recent-post-2.jpg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="./assets/images/recent-post-1.jpg" width="276" height="277" loading="lazy" alt="insta post"
+                      class="img-cover">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/sunit_stylish_logo.svg" width="119" height="37" loading="lazy" alt="Wren logo">
+            </a>
+
+            <p class="footer-text">
+              If you can’t explain it simply, you don’t understand it well enough..
+            </p>
+
+            <p class="footer-list-title">Address</p>
+
+            <address class="footer-text address">
+              Biratnagar, Morang <br>
+              Himalaya Darshan college, <br>
+            </address>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Categories</p>
+
+            <ul>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Action</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Business</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Adventure</a>
+              </li>
+
+              <li>
+                <a href="https://www.canada.ca/en.html" class="footer-link hover-2">Canada</a>
+              </li>
+
+              <li>
+                <a href="https://www.state.gov/" class="footer-link hover-2">America</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Curiosity</a>
+              </li>
+
+              <li>
+                <a href="https://www.speciesunite.com/news-stories?gad_source=1&gad_campaignid=22582754537&gbraid=0AAAAABx4PnXIFTJWd00hP_NomL3kB-FC_&gclid=EAIaIQobChMIxPaNzIr9jgMVI80WBR0ZXyu3EAAYASAAEgKgsfD_BwE" class="footer-link hover-2">Animal</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Dental</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Biology</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Design</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Breakfast</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Dessert</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="footer-text">
+              Sign up to be first to receive the latest stories inspiring us, case studies, and industry news.
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Your name" required class="input-field" autocomplete="off">
+
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Emaill address" required class="input-field"
+                autocomplete="off">
+
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; Developed by <a href="#" class="copyright-link">Sunit Katuwal</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://x.com/KtwalSuneet" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/sammyam_xettri/profilecard/?igsh=MXJpNmptdmVpMmY2bQ==" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
